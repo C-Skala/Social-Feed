@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CreatePost from "./Components/CreatePost/CreatePost";
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
 
   return (
     <div>
-      <CreatePost/>
+      <Navbar/>
+      <CreatePost addNewPostProperty = {addNewPost}/>
       <DisplayPosts parentEntries = {entries}/>
     </div>
   );
