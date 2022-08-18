@@ -21,6 +21,7 @@ const CreatePost = (props) => {
             <input type = 'text' name = 'fullName'/><br/>
             <label>Post</label>
             <input type = 'text' name = 'post'/>
+            <button type = 'submit' className = 'btn btn-primary'>POST</button>
         </form>
         
      );
