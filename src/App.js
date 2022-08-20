@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CreatePost from "./Components/CreatePost/CreatePost";
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import Navbar from './Components/Navbar/Navbar';
+import './Components/DisplayPosts/LikeDislikeButton.css';
 
 function App() {
   
