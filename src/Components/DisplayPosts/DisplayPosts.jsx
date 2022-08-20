@@ -17,6 +17,7 @@ const DisplayPosts = (props) => {
                             <td className = 'table-content' >{entry.post}</td>
                             <td><LikeDislikeButton message = 'Like'/></td>
                             <td><LikeDislikeButton message = 'Dislike'/></td>
+                            <td>{Date()}</td>
                         </tr> 
                         
                     );
