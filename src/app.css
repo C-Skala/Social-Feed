@@ -1,0 +1,16 @@
+.border-box {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 1em;
+    padding: 1em;
+}
+
+.body{
+    background-color:antiquewhite;
+    text-align: center;
+    padding: 0rem;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}

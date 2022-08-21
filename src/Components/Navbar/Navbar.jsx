@@ -1,8 +1,8 @@
 import React from 'react';
-
+import "./Navbar.css"
 const Navbar = (props) => {
     return ( 
-       <h3 style = {{margin: '1em' }}>Social 
+       <h3 className='head'>Social 
         <small className = 'text-muted'>Feed</small></h3> 
      );
 }

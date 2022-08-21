@@ -3,6 +3,8 @@ import CreatePost from "./Components/CreatePost/CreatePost";
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import Navbar from './Components/Navbar/Navbar';
 import './Components/DisplayPosts/LikeDislikeButton.css';
+import './Components/Navbar/Navbar.css';
+import './app.css'
 
 function App() {
   
@@ -16,9 +18,15 @@ function App() {
 
   return (
     <div>
+    <div >
       <Navbar/>
+    </div>
+    <div className='border-box, body'>
       <CreatePost addNewPostProperty = {addNewPost}/>
+    </div>
+    <div className=' body'>
       <DisplayPosts parentEntries = {entries}/>
+    </div>
     </div>
   );
 }

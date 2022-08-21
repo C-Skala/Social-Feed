@@ -1,0 +1,8 @@
+.postbox{
+    height: 100px;
+    margin: 1em;
+}
+
+.form-grid {
+    display: grid;
+}

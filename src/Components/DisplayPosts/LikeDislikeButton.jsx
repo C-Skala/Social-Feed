@@ -9,12 +9,12 @@ const LikeDislikeButton = (props) => {
             setButtonClass('active');
         }
         else{
-            setButtonClass('inactive');
+            setButtonClass('inactive')
         }
     }  
         return ( 
         <div>
-            <button classname = {buttonClass} onClick ={handleClick}>{props.message}</button> 
+            <button className = {buttonClass} onClick ={handleClick}>{props.message}</button> 
         </div>
      );
     

@@ -1,0 +1,15 @@
+.boldName{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.hrheadder{
+    width: 100%;
+    border: 2px solid black;
+    color: black;
+    
+}
+
+.date-info{
+    font-size: x-small;
+}
